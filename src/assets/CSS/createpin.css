@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,700&family=Roboto&display=swap");
+body {
+  font-family: "nunito sans";
+  margin: 0;
+}
+.parent-s {
+  background-image: url(/fw9-responsive-web/assets/img/authbg.png);
+  /* background-size: cover; */
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  display: flex;
+  justify-content: center;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  max-width: 500px;
+  color: white;
+}
+.right-side {
+  max-width: 750px;
+  padding-left: 220px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input {
+  text-align: center;
+  height: 53px;
+}
+.input:out-of-range {
+}
