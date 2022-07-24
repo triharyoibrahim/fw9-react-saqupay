@@ -4,13 +4,21 @@ body {
   font-family: "nunito sans";
   margin: 0;
 }
-
+.blue {
+  color: #6379f4;
+}
+.black {
+  color: black;
+}
 /* header */
+.header-saqu {
+  padding: 55px 155px 0;
+}
 .nav {
   display: flex;
   justify-content: space-between;
 }
-.spanzwallet {
+.spansaqu {
   font-style: normal;
   font-weight: 700;
   font-size: 29px;
@@ -46,7 +54,13 @@ body {
   justify-content: center;
   max-width: 474px;
 }
-
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dis {
+  display: flex;
+}
 /* section 1 */
 .section-one {
   background-color: rgba(71, 58, 209, 0.06);
@@ -54,6 +68,10 @@ body {
 
   display: flex;
   justify-content: space-between;
+}
+.fit-img {
+  height: fit-content;
+  padding: 45px;
 }
 
 /* section 2 */
@@ -93,6 +111,9 @@ body {
   width: 100px;
   height: 100px;
 }
+.sizing {
+  max-width: 350px;
+}
 
 /* section 3 */
 .section-three {
@@ -113,27 +134,26 @@ body {
   border-radius: 25px;
   padding: 20px;
 }
+.sizing-h1 {
+  max-width: 480px;
+}
+.sizing-font {
+  font-size: 15px;
+  color: #6379f4;
+}
 
 /* section 4 */
-.section-four {
+.sizing-carousel {
   padding: 55px 155px 50px;
 }
-.card-carousel {
-  padding: 100px;
 
-  text-align: center;
+.imgcard-carousel {
   border-radius: 25px;
 }
-.card-carousel:hover {
-  background: rgba(182, 179, 179, 0.815);
+.imgcard-carousel:hover {
+  border-color: #6379f4 1px;
 }
-.imgcard-carousel {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  height: 100px;
-}
+
 /* footer */
 .footer {
   background-color: #6379f4;
@@ -144,4 +164,8 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: xx-small;
+}
+sizing.footer {
+  font-size: xx-small;
+  max-width: 285px;
 }

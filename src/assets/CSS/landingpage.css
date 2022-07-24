@@ -8,7 +8,7 @@ body {
 }
 
 .bgimage {
-  background-image: url(/fw9-responsive-web/assets/img/landingpage1.png);
+  /* background-image: url(/fw9-react-saqupay/src/assets/img/landingpage1.png); */
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: top right;
