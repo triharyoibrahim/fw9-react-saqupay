@@ -1,7 +1,73 @@
 import React from "react";
+import Leftside from "../../components/Authleftside.js";
+import "../../assets/CSS/signup.css";
+import { FiUser, FiMail, FiLock } from "react-icons/fi";
 
 function Signup() {
-  return <div>Signup</div>;
+  return (
+    <>
+      <aside>
+        <div class="parent-s">
+          <Leftside />
+          <div className="right-side">
+            <div>
+              <h4>
+                Start Accessing Banking Needs With All Devices and All Platforms
+                With 30.000+ Users
+              </h4>
+              <p className="pt-3">
+                Transfering money is eassier than ever, you can access Zwallet
+                wherever you are. Desktop, laptop, mobile phone? we cover all of
+                that for you!
+              </p>
+            </div>
+            <div className="input">
+              <div className="input-group flex-nowrap">
+                <span className="input-group-text zw-icon">
+                  <FiUser />
+                </span>
+                <input
+                  type="text"
+                  className="form-control zw-input"
+                  placeholder="Enter your username"
+                />
+              </div>
+              <div className="input-group flex-nowrap pt-5">
+                <span className="input-group-text zw-icon">
+                  <FiMail />
+                </span>
+                <input
+                  type="email"
+                  className="form-control zw-input"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div className="input-group flex-nowrap pt-5">
+                <span className="input-group-text zw-icon">
+                  <FiLock />
+                </span>
+                <input
+                  type="password"
+                  className="form-control zw-input"
+                  placeholder="Enter your password"
+                />
+              </div>
+            </div>
+
+            <div className="d-grid pt-5">
+              <button type="button" className="btn btn-primary btn-ls">
+                Sign Up
+              </button>
+            </div>
+            <div className="text-center pt-3">
+              Already have an account? Let’s
+              <a href="/fw9-responsive-web/pages/auth/login.html">Login</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </>
+  );
 }
 
 export default Signup;

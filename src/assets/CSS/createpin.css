@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 .parent-s {
-  background-image: url(/fw9-responsive-web/assets/img/authbg.png);
+  background-image: url(../img/authbg.png);
   /* background-size: cover; */
   margin: 0;
   background-repeat: no-repeat;
