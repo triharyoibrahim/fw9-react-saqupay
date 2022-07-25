@@ -1,7 +1,15 @@
 import React from "react";
+import Navbar from "../../components/Navbar.js";
+import Footer from "../../components/Footer.js";
 
 function Profile() {
-  return <div>Profile</div>;
+  return (
+    <>
+      <Navbar />
+      <main>main</main>
+      <Footer />
+    </>
+  );
 }
 
 export default Profile;

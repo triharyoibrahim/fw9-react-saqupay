@@ -122,7 +122,7 @@ function Landingpage() {
               <span className="sizing-font">1. </span>
               <span className="point">Small Fee</span>
               <br />
-              We only charge 5% of every success transaction done in Zwallet
+              We only charge 5% of every success transaction done in Saqu Pay
               app.
             </p>
             <p className="pstyle">
