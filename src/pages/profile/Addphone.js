@@ -37,8 +37,8 @@ function Addphone() {
                   </Form.Group>
                 </Form>
               </div>
-              <div className="d-flex justify-content-center">
-                <Link to="#">
+              <div className="d-flex justify-content-center zwlink">
+                <Link to="/managephonenum">
                   <Button variant="light" size="lg" className="">
                     Add Number
                   </Button>

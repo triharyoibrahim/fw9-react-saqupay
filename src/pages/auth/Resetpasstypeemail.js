@@ -1,9 +1,10 @@
 import React from "react";
-import {} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/resetpass.css";
 import { FiMail } from "react-icons/fi";
 import Leftside from "../../components/AuthLeftSide.js";
+import { Link } from "react-router-dom";
 
 function ResetpassTypeemail() {
   return (
@@ -36,13 +37,13 @@ function ResetpassTypeemail() {
               </div>
             </div>
 
-            <div className="d-grid pt-5">
-              <a
-                href="/fw9-responsive-web/pages/auth/resetpass-typepass.html"
-                class="btn btn-primary btn-ls"
-              >
-                Confirm
-              </a>
+            <div className="d-grid pt-5 d-flex justify-content-center">
+              <Link to="/resetpass/typepass">
+                {" "}
+                <Button variant="primary" size="lg">
+                  Confirm
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

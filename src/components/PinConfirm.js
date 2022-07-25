@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Modal, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function PinConfirm(props) {
   return (
@@ -78,7 +79,16 @@ function PinConfirm(props) {
           </Form>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Continue</Button>
+          <Link to="/transfer/failed">
+            <Button className="auth-button" onClick={props.onHide}>
+              Cancel
+            </Button>
+          </Link>
+          <Link to="/transfer/success">
+            <Button className="" onClick={props.onHide}>
+              Confirm
+            </Button>
+          </Link>
         </Modal.Footer>
       </Modal>
     </>

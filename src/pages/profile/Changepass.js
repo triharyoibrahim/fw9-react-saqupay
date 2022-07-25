@@ -60,7 +60,7 @@ function Changepass() {
                 </Form>
               </div>
               <div className="d-flex justify-content-center">
-                <Link to="#">
+                <Link to="/home">
                   <Button variant="light" size="lg" className="">
                     Change Password
                   </Button>

@@ -60,7 +60,7 @@ function Personalinfo() {
                       <p className="">+62 813-9387-7946</p>
                     </div>
                   </div>
-                  <Link className="" to="#">
+                  <Link className="zwlink" to="/managephonenum">
                     <p className="p-3">Manage</p>
                   </Link>
                 </div>

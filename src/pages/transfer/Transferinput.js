@@ -56,7 +56,7 @@ function Transferinput() {
                   />
                 </Form.Group>
                 <div className="d-md-flex justify-content-end">
-                  <Link to="#">
+                  <Link to="/transfer/confirm">
                     <Button
                       className="btn auth-button w-100 my-5"
                       type="submit"

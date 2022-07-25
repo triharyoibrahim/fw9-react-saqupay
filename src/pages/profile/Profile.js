@@ -29,8 +29,8 @@ function Profile() {
               </div>
               <div className="graphic d-flex-column p-3 my-3 mx-auto">
                 <Link
-                  to="#"
-                  className="d-flex justify-content-between align-items-center"
+                  to="/personalinfo"
+                  className="d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex justify-content-between ms-3">
                     <p className=" mb-1">Personal Information</p>
@@ -40,8 +40,8 @@ function Profile() {
               </div>
               <div className="graphic d-flex-column  p-3 my-3 mx-auto">
                 <Link
-                  to="#"
-                  className="d-flex justify-content-between align-items-center"
+                  to="/changepass"
+                  className="d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex justify-content-between ms-3">
                     <p className="mb-1">Change Password</p>
@@ -51,8 +51,8 @@ function Profile() {
               </div>
               <div className="graphic  d-flex-column p-3 my-3 mx-auto ">
                 <Link
-                  to=""
-                  className="d-flex justify-content-between align-items-center"
+                  to="/changepin"
+                  className="d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex justify-content-between ms-3">
                     <p className="mb-1">Change PIN</p>
@@ -62,8 +62,8 @@ function Profile() {
               </div>
               <div className="graphic d-flex-column p-3 my-3 mb-5 mx-auto ">
                 <Link
-                  to="#"
-                  className="d-flex justify-content-between align-items-center"
+                  to="/"
+                  className="d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex justify-content-between ms-3">
                     <p className=" mb-1">Log Out</p>

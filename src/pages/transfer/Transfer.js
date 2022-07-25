@@ -36,8 +36,8 @@ function Transfer() {
               </Form>
               <div className=" d-flex-column  p-1 my-1">
                 <Link
-                  to="#"
-                  className="graphic p-2 d-flex justify-content-between align-items-center"
+                  to="/transfer/input"
+                  className="graphic p-2 d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex">
                     <img src={robert} className="" alt="robert" />
@@ -50,8 +50,8 @@ function Transfer() {
               </div>
               <div className="d-flex-column p-1 my-1">
                 <Link
-                  to="#"
-                  className="graphic p-2 d-flex justify-content-between align-items-center"
+                  to="/transfer/input"
+                  className="graphic p-2 d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex">
                     <img src={jessica} className="" alt="jessica" />
@@ -64,8 +64,8 @@ function Transfer() {
               </div>
               <div className="d-flex-column  p-1 my-1">
                 <Link
-                  to="#"
-                  className="graphic p-2 d-flex justify-content-between align-items-center"
+                  to="/transfer/input"
+                  className="graphic p-2 d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex">
                     <img src={sherina} className="" alt="sherina" />
@@ -78,8 +78,8 @@ function Transfer() {
               </div>
               <div className="d-flex-column  p-1 my-1">
                 <Link
-                  to="#"
-                  className="graphic p-2 d-flex justify-content-between align-items-center"
+                  to="/transfer/input"
+                  className="graphic p-2 d-flex justify-content-between align-items-center zwlink"
                 >
                   <div className="d-flex">
                     <img src={robert} className="" alt="robert" />

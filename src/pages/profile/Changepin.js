@@ -81,7 +81,7 @@ function Changepin() {
                 </Form>
               </div>
               <div className="text-center  my-5">
-                <Link to="#">
+                <Link to="/home">
                   <Button className="">Continue</Button>
                 </Link>
               </div>

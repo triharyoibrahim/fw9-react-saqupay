@@ -1,9 +1,10 @@
 import React from "react";
-import {} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/login.css";
 import { FiMail, FiLock } from "react-icons/fi";
 import Leftside from "../../components/AuthLeftSide.js";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -46,20 +47,24 @@ function Login() {
                 />
               </div>
             </div>
-            <div className="text-end">
-              <a href="/fw9-responsive-web/pages/auth/resetpass-typeemail.html">
-                Forgot Password
-              </a>
-            </div>
-            <div className="d-grid pt-5">
-              <button type="button" className="btn btn-primary btn-ls">
-                Login
-              </button>
+
+            <div className="d-flex justify-content=center pt-5">
+              <Link to="/createpin">
+                {" "}
+                <Button type="button" className="btn btn-primary btn-ls">
+                  Login
+                </Button>
+              </Link>
             </div>
             <div className="text-center pt-3">
               Don’t have an account? Let’s
-              <a href="/fw9-responsive-web/pages/auth/signup.html">Sign Up</a>
+              <Link to="/signup"> Sign Up</Link>
             </div>
+
+            <Link to="/resetpass" className="text-center">
+              {" "}
+              Forgot Password{" "}
+            </Link>
           </div>
         </div>
       </aside>

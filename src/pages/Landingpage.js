@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/CSS/landingpage-v2.css";
+import { Link } from "react-router-dom";
 
 import bg from "../../src/assets/img/landingpage_png-phone.png";
 import appstore from "../../src/assets/img/appstore.png";
@@ -29,8 +30,12 @@ function Landingpage() {
             <span className="spansaqu">Saqu Pay</span>
           </div>
           <div>
-            <Button variant="primary">Login</Button>{" "}
-            <Button variant="primary">Sign Up</Button>{" "}
+            <Link to="/Login">
+              <Button variant="primary">Login</Button>
+            </Link>
+            <Link to="/Signup">
+              <Button variant="primary">Sign Up</Button>{" "}
+            </Link>
           </div>
         </nav>
 
@@ -47,7 +52,10 @@ function Landingpage() {
               wasting much of your times.
             </p>
             <div className="">
-              <Button variant="primary">Try it free</Button>{" "}
+              <Link to="/signup">
+                {" "}
+                <Button variant="primary">Try it free</Button>
+              </Link>
             </div>
             <p>available On :</p>
             <div className="dis">

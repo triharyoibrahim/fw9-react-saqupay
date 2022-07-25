@@ -1,9 +1,10 @@
 import React from "react";
-import {} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/createpin.css";
 import {} from "react-icons/fi";
 import Leftside from "../../components/AuthLeftSide.js";
+import { Link } from "react-router-dom";
 
 function Createpin() {
   return (
@@ -50,13 +51,13 @@ function Createpin() {
               </div>
             </div>
 
-            <div className="d-grid pt-5">
-              <a
-                href="/fw9-responsive-web/pages/auth/createpin-success.html"
-                className="btn btn-primary btn-ls"
-              >
-                Confirm
-              </a>
+            <div className="d-flex justify-content-center pt-5">
+              <Link to="/createpin/success">
+                {" "}
+                <Button type="button" className="btn btn-primary btn-ls">
+                  Confirm
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

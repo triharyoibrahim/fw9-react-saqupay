@@ -1,7 +1,9 @@
 import React from "react";
 import Leftside from "../../components/AuthLeftSide.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/signup.css";
 import { FiUser, FiMail, FiLock } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 function Signup() {
   return (
@@ -60,8 +62,7 @@ function Signup() {
               </button>
             </div>
             <div className="text-center pt-3">
-              Already have an account? Let’s
-              <a href="/fw9-responsive-web/pages/auth/login.html">Login</a>
+              Already have an account? Let’s <Link to="/Login">Login</Link>
             </div>
           </div>
         </div>

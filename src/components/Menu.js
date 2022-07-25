@@ -1,54 +1,43 @@
 import React from "react";
 import "../assets/CSS/home.css";
 import { FiGrid, FiPlus, FiArrowUp, FiLogOut, FiUser } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
     <>
-      <div class="zw-aside mt-3 ps-3 ps-md-4 pt-3 pt-md-5">
-        <div class="flex-fill d-flex flex-column gap-1 gap-md-2">
-          <div class="zw-hover d-flex">
+      <div className="zw-aside mt-3 ps-3 ps-md-4 pt-3 pt-md-5">
+        <div className="flex-fill d-flex flex-column gap-1 gap-md-2">
+          <div className="d-flex">
             <FiGrid />
             <p class="ms-3">
-              <a
-                href="/fw9-responsive-web/pages/dashboard/home.html"
-                className="linkstyle"
-              >
-                Dasboard
-              </a>
+              <Link to="/home" className="zwlink">
+                Dashboard
+              </Link>
             </p>
           </div>
-          <div class="zw-hover d-flex">
-            <FiArrowUp />
+          <div className="zwlink d-flex">
+            <FiArrowUp className="zwlink" />
             <p class="ms-1 ms-md-3">
-              <a
-                href="/fw9-responsive-web/pages/transfer/transfer.html"
-                className="linkstyle"
-              >
+              <Link to="/transfer" className="zwlink">
                 Transfer
-              </a>
+              </Link>
             </p>
           </div>
           <div class="zw-hover d-flex">
             <FiPlus />
             <p class="ms-1 ms-md-3">
-              <a
-                href="/fw9-responsive-web/pages/topup/topup.html"
-                className="linkstyle"
-              >
+              <Link to="/topup" className="zwlink">
                 Top Up
-              </a>
+              </Link>{" "}
             </p>
           </div>
           <div class="zw-hover d-flex mb-5">
             <FiUser />
             <p class="ms-1 ms-md-3">
-              <a
-                href="/fw9-responsive-web/pages/profile/profile.html"
-                className="linkstyle"
-              >
+              <Link to="/profile" className="zwlink">
                 Profile
-              </a>
+              </Link>
             </p>
           </div>
         </div>
@@ -56,9 +45,9 @@ function Menu() {
           <div class="d-flex">
             <FiLogOut />
             <p class="ms-1 ms-md-3">
-              <a href="/fw9-responsive-web/index.html" className="linkstyle">
-                logout
-              </a>
+              <Link to="/" className="zwlink">
+                Logout
+              </Link>
             </p>
           </div>
         </div>

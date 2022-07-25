@@ -97,7 +97,7 @@ function Transfersuccess() {
                     Download
                   </Button>
                 </Link>
-                <Link to="#">
+                <Link to="/home">
                   <Button className=" my-2 my-md-5" type="submit">
                     Back To Home
                   </Button>

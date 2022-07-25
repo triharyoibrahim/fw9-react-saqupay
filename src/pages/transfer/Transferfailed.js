@@ -82,7 +82,7 @@ function Transferfailed() {
                 </div>
               </div>
               <div className="d-md-flex justify-content-end">
-                <Link to="#">
+                <Link to="/transfer">
                   <Button className=" my-2 my-md-5" type="submit">
                     Try Again
                   </Button>
