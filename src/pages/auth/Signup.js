@@ -1,5 +1,5 @@
 import React from "react";
-import Leftside from "../../components/Authleftside.js";
+import Leftside from "../../components/AuthLeftSide.js";
 import "../../assets/CSS/signup.css";
 import { FiUser, FiMail, FiLock } from "react-icons/fi";
 

@@ -3,7 +3,7 @@ import {} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/resetpass.css";
 import { FiLock } from "react-icons/fi";
-import Leftside from "../../components/Authleftside.js";
+import Leftside from "../../components/AuthLeftSide.js";
 
 function ResetpassTypepass() {
   return (

@@ -3,7 +3,7 @@ import {} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/createpin.css";
 import {} from "react-icons/fi";
-import Leftside from "../../components/Authleftside.js";
+import Leftside from "../../components/AuthLeftSide.js";
 import success from "../../assets/img/success.png";
 
 function Createpinsuccess() {

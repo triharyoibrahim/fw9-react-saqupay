@@ -3,7 +3,7 @@ import "../assets/CSS/login.css";
 
 import bgauth from "../assets/img/phonedouble.png";
 
-function Authleftside() {
+function AuthLeftSide() {
   return (
     <>
       <div className="min-vh-100 left-side">
@@ -21,4 +21,4 @@ function Authleftside() {
   );
 }
 
-export default Authleftside;
+export default AuthLeftSide;
