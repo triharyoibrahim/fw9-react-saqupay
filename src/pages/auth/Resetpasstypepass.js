@@ -47,7 +47,7 @@ function ResetpassTypepass() {
               </div>
             </div>
             <div className="d-flex-column ">
-              <Link to="/home">
+              <Link to="/login">
                 {" "}
                 <Button variant="primary" size="lg">
                   Reset Password

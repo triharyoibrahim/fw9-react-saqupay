@@ -30,7 +30,7 @@ function Landingpage() {
             <span className="spansaqu">Saqu Pay</span>
           </div>
           <div>
-            <Link to="/Login">
+            <Link to="/Login" className="m-1">
               <Button variant="primary">Login</Button>
             </Link>
             <Link to="/Signup">
