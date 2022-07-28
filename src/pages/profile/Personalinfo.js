@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Menu from "../../components/Menu.js";
 import { Link } from "react-router-dom";
 
-function Personalinfo() {
+function PersonalInfo() {
   return (
     <>
       <Navbar />
@@ -74,4 +74,4 @@ function Personalinfo() {
   );
 }
 
-export default Personalinfo;
+export default PersonalInfo;

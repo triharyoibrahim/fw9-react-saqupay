@@ -3,15 +3,15 @@ import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/createpin.css";
 import {} from "react-icons/fi";
-import Leftside from "../../components/AuthLeftSide.js";
+import LeftSide from "../../components/AuthLeftSide.js";
 import { Link } from "react-router-dom";
 
-function Createpin() {
+function CreatePin() {
   return (
     <>
       <aside>
         <div className="parent-s">
-          <Leftside />
+          <LeftSide />
           <div className="right-side">
             <div>
               <h4>
@@ -66,4 +66,4 @@ function Createpin() {
   );
 }
 
-export default Createpin;
+export default CreatePin;

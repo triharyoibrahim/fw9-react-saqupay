@@ -21,13 +21,13 @@ import sherina from "../../src/assets/img/chaw.jpg";
 import jessica from "../../src/assets/img/mera.jpg";
 import robert from "../../src/assets/img/chandler.jpg";
 
-function Landingpage() {
+function LandingPage() {
   return (
     <>
       <header className="header-saqu">
         <nav className="nav">
           <div>
-            <span className="spansaqu">Saqu Pay</span>
+            <h2 className="blue">Saqu Pay</h2>
           </div>
           <div>
             <Link to="/Login" className="m-1">
@@ -198,7 +198,7 @@ function Landingpage() {
       </Carousel>
 
       <footer>
-        <div className="footer">
+        <div className="zwfooter">
           <h3>Saqu Pay</h3>
           <p className="sizing.footer">
             Simplify financial needs and saving much time in banking needs with
@@ -218,4 +218,4 @@ function Landingpage() {
   );
 }
 
-export default Landingpage;
+export default LandingPage;

@@ -7,7 +7,7 @@ import { FiEdit2 } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import robert from "../../assets/img/robert.png";
 
-function Transferinput() {
+function TransferInput() {
   return (
     <>
       <Navbar />
@@ -75,4 +75,4 @@ function Transferinput() {
   );
 }
 
-export default Transferinput;
+export default TransferInput;

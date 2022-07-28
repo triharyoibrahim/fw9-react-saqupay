@@ -12,7 +12,7 @@ body {
   font-weight: 700;
   font-size: 30px;
 
-  color: #6379f4;
+  color: #b0ef5e;
 }
 
 .zw-nav {
@@ -60,7 +60,7 @@ body {
   color: black;
 }
 .zwlink:hover {
-  color: blue;
+  color: #b0ef5e;
 }
 
 .zw-header {
@@ -68,7 +68,7 @@ body {
   /* height: 100%; */
   color: white;
   padding: 2%;
-  background: #6379f4;
+  background: #b0ef5e;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   border-radius: 25px;
 }
@@ -82,5 +82,6 @@ body {
   height: 100%;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+
   border-radius: 25px;
 }

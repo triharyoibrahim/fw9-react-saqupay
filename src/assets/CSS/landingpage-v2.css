@@ -5,7 +5,7 @@ body {
   margin: 0;
 }
 .blue {
-  color: #6379f4;
+  color: #b0ef5e;
 }
 .black {
   color: black;
@@ -155,8 +155,8 @@ body {
 }
 
 /* footer */
-.footer {
-  background-color: #6379f4;
+.zwfooter {
+  background-color: #b0ef5e;
   padding: 80px 150px 90px;
   color: #ffffff;
 }

@@ -3,16 +3,16 @@ import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/createpin.css";
 import {} from "react-icons/fi";
-import Leftside from "../../components/AuthLeftSide.js";
+import LeftSide from "../../components/AuthLeftSide.js";
 import success from "../../assets/img/success.png";
 import { Link } from "react-router-dom";
 
-function Createpinsuccess() {
+function CreatePinSuccess() {
   return (
     <>
       <aside>
         <div className="parent-s">
-          <Leftside />
+          <LeftSide />
           <div className="right-side">
             <div>
               <img src={success} className="pb-5" alt="success logo" />
@@ -39,4 +39,4 @@ function Createpinsuccess() {
   );
 }
 
-export default Createpinsuccess;
+export default CreatePinSuccess;

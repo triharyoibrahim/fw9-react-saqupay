@@ -6,7 +6,7 @@ import Menu from "../../components/Menu.js";
 import { Link } from "react-router-dom";
 import { FiLock } from "react-icons/fi";
 
-function Changepass() {
+function ChangePass() {
   return (
     <>
       <Navbar />
@@ -75,4 +75,4 @@ function Changepass() {
   );
 }
 
-export default Changepass;
+export default ChangePass;

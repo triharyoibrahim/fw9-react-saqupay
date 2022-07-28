@@ -1,24 +1,24 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LandingPage from "../src/pages/Landingpage";
+import LandingPage from "./pages/LandingPage";
 import Home from "../src/pages/home/Home";
-import CreatePin from "../src/pages/auth/Createpin";
-import CreatePinSuccess from "../src/pages/auth/Createpinsuccess";
+import CreatePin from "./pages/auth/CreatePin";
+import CreatePinSuccess from "./pages/auth/CreatePinSuccess";
 import Login from "../src/pages/auth/Login";
-import ResetPassTypeEmail from "../src/pages/auth/Resetpasstypeemail";
-import ResetPassTypePass from "../src/pages/auth/Resetpasstypepass";
-import Signup from "../src/pages/auth/Signup";
+import ResetPassTypeEmail from "./pages/auth/ResetPassTypeEmail";
+import ResetPassTypePass from "./pages/auth/ResetPassTypePass";
+import Signup from "./pages/auth/SignUp";
 import Profile from "../src/pages/profile/Profile";
-import PersonalInfo from "../src/pages/profile/Personalinfo";
-import ManagePhoneNum from "../src/pages/profile/Managephonenum";
-import AddPhone from "../src/pages/profile/Addphone";
-import ChangePass from "../src/pages/profile/Changepass";
-import ChangePin from "../src/pages/profile/Changepin";
-import Topup from "../src/pages/topup/Topup";
+import PersonalInfo from "./pages/profile/PersonalInfo";
+import ManagePhoneNum from "./pages/profile/ManagePhoneNum";
+import AddPhone from "./pages/profile/AddPhone";
+import ChangePass from "./pages/profile/ChangePass";
+import ChangePin from "./pages/profile/ChangePin";
+import Topup from "./pages/topup/TopUp";
 import Transfer from "../src/pages/transfer/Transfer";
-import TransferSuccess from "../src/pages/transfer/Transfersuccess";
-import TransferFailed from "../src/pages/transfer/Transferfailed";
-import TransferInput from "../src/pages/transfer/Transferinput";
+import TransferSuccess from "./pages/transfer/TransferSuccess";
+import TransferFailed from "./pages/transfer/TransferFailed";
+import TransferInput from "./pages/transfer/TransferInput";
 import Confirm from "../src/pages/transfer/Confirm";
 import PrivateRoute from "./components/PrivateRoute";
 
@@ -33,8 +33,22 @@ function App() {
         <Route path="/Home" element={<Home />} />
 
         {/* Auth */}
-        <Route path="/Createpin" element={<CreatePin />} />
-        <Route path="/Createpin/Success" element={<CreatePinSuccess />} />
+        <Route
+          path="/Createpin"
+          element={
+            <PrivateRoute>
+              <CreatePin />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/Createpin/Success"
+          element={
+            <PrivateRoute>
+              <CreatePinSuccess />
+            </PrivateRoute>
+          }
+        />
         <Route path="/Login" element={<Login />} />
         <Route path="/Resetpass" element={<ResetPassTypeEmail />} />
         <Route path="/Resetpass/Typepass" element={<ResetPassTypePass />} />
@@ -81,7 +95,7 @@ function App() {
           path="/Changepass"
           element={
             <PrivateRoute>
-              <ChangePin />
+              <ChangePass />
             </PrivateRoute>
           }
         />

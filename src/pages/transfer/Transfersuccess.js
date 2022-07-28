@@ -7,7 +7,7 @@ import { BsCheckCircleFill, BsDownload, BsShare } from "react-icons/bs";
 import robert from "../../assets/img/robert.png";
 import { Link } from "react-router-dom";
 
-function Transfersuccess() {
+function TransferSuccess() {
   return (
     <>
       <Navbar />
@@ -112,4 +112,4 @@ function Transfersuccess() {
   );
 }
 
-export default Transfersuccess;
+export default TransferSuccess;

@@ -6,7 +6,7 @@ import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import {} from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-function Changepin() {
+function ChangePin() {
   return (
     <>
       <Navbar />
@@ -94,4 +94,4 @@ function Changepin() {
   );
 }
 
-export default Changepin;
+export default ChangePin;

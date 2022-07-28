@@ -6,7 +6,7 @@ import Menu from "../../components/Menu.js";
 import { Link } from "react-router-dom";
 import { FiTrash } from "react-icons/fi";
 
-function Managephonenum() {
+function ManagePhoneNum() {
   return (
     <>
       <Navbar />
@@ -44,4 +44,4 @@ function Managephonenum() {
   );
 }
 
-export default Managephonenum;
+export default ManagePhoneNum;

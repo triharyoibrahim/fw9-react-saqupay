@@ -7,7 +7,7 @@ import { BsFillXCircleFill } from "react-icons/bs";
 import robert from "../../assets/img/robert.png";
 import { Link } from "react-router-dom";
 
-function Transferfailed() {
+function TransferFailed() {
   return (
     <>
       <Navbar />
@@ -97,4 +97,4 @@ function Transferfailed() {
   );
 }
 
-export default Transferfailed;
+export default TransferFailed;

@@ -6,7 +6,7 @@ import Menu from "../../components/Menu.js";
 import { Link } from "react-router-dom";
 import { FiPhone } from "react-icons/fi";
 
-function Addphone() {
+function AddPhone() {
   return (
     <>
       <Navbar />
@@ -53,4 +53,4 @@ function Addphone() {
   );
 }
 
-export default Addphone;
+export default AddPhone;

@@ -3,14 +3,15 @@ import { Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/resetpass.css";
 import { FiLock } from "react-icons/fi";
-import Leftside from "../../components/AuthLeftSide.js";
+import LeftSide from "../../components/AuthLeftSide.js";
 import { Link } from "react-router-dom";
-function ResetpassTypepass() {
+
+function ResetPassTypePass() {
   return (
     <>
       <aside>
         <div className="parent-s">
-          <Leftside />
+          <LeftSide />
           <div className="d-flex-column">
             <div className="right-side">
               <div>
@@ -61,4 +62,4 @@ function ResetpassTypepass() {
   );
 }
 
-export default ResetpassTypepass;
+export default ResetPassTypePass;

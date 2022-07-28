@@ -1,16 +1,16 @@
 import React from "react";
-import Leftside from "../../components/AuthLeftSide.js";
+import LeftSide from "../../components/AuthLeftSide.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../assets/CSS/signup.css";
 import { FiUser, FiMail, FiLock } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-function Signup() {
+function SignUp() {
   return (
     <>
       <aside>
         <div class="parent-s">
-          <Leftside />
+          <LeftSide />
           <div className="right-side">
             <div>
               <h4>
@@ -71,4 +71,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default SignUp;

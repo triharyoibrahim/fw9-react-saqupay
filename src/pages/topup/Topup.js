@@ -4,7 +4,7 @@ import Footer from "../../components/Footer.js";
 import Menu from "../../components/Menu.js";
 import { Container, Row, Col } from "react-bootstrap";
 
-function Topup() {
+function TopUp() {
   return (
     <>
       <Navbar />
@@ -52,4 +52,4 @@ function Topup() {
   );
 }
 
-export default Topup;
+export default TopUp;
