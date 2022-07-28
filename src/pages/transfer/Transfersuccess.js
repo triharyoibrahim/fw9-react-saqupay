@@ -11,6 +11,7 @@ function TransferSuccess() {
   return (
     <>
       <Navbar />
+      <div className="P-2">-</div>
       <Container>
         <Row>
           <Col xs={3}>
@@ -98,7 +99,11 @@ function TransferSuccess() {
                   </Button>
                 </Link>
                 <Link to="/home">
-                  <Button className=" my-2 my-md-5" type="submit">
+                  <Button
+                    variant="success"
+                    className=" my-2 my-md-5"
+                    type="submit"
+                  >
                     Back To Home
                   </Button>
                 </Link>

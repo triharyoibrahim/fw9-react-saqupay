@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function Menu() {
   return (
     <>
-      <div className="zw-aside mt-3 ps-3 ps-md-4 pt-3 pt-md-5">
+      <div className="zw-aside ps-3 ps-md-4 pt-3 pt-md-5 mt-3">
         <div className="flex-fill d-flex flex-column gap-1 gap-md-2">
-          <div className="d-flex">
+          <div className="zwlink d-flex">
             <FiGrid />
             <p class="ms-3">
               <Link to="/home" className="zwlink">
@@ -17,14 +17,14 @@ function Menu() {
             </p>
           </div>
           <div className="zwlink d-flex">
-            <FiArrowUp className="zwlink" />
+            <FiArrowUp className="" />
             <p class="ms-1 ms-md-3">
               <Link to="/transfer" className="zwlink">
                 Transfer
               </Link>
             </p>
           </div>
-          <div class="zw-hover d-flex">
+          <div class="zwlink d-flex">
             <FiPlus />
             <p class="ms-1 ms-md-3">
               <Link to="/topup" className="zwlink">
@@ -32,7 +32,7 @@ function Menu() {
               </Link>{" "}
             </p>
           </div>
-          <div class="zw-hover d-flex mb-5">
+          <div class="zwlink  d-flex mb-5">
             <FiUser />
             <p class="ms-1 ms-md-3">
               <Link to="/profile" className="zwlink">
@@ -41,7 +41,7 @@ function Menu() {
             </p>
           </div>
         </div>
-        <div class="zw-hover d-flex  mt-5">
+        <div class="zwlink d-flex  mt-5">
           <div class="d-flex">
             <FiLogOut />
             <p class="ms-1 ms-md-3">

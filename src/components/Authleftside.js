@@ -13,7 +13,7 @@ function AuthLeftSide() {
         <p className="">
           Saqu Pay is an application that focussing in banking needs for all
           users in the world. Always updated and always following world trends.
-          5000+ users registered in Zwallet everyday with worldwide users
+          5000+ users registered in Saqu Pay everyday with worldwide users
           coverage.
         </p>
       </div>

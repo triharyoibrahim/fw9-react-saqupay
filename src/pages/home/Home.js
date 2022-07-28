@@ -61,6 +61,7 @@ function Home() {
   return (
     <>
       <Navbar />
+      <div className="P-2">-</div>
       <main>
         <Container>
           <Row>

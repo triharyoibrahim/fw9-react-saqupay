@@ -13,6 +13,7 @@ function Confirm() {
   return (
     <>
       <Navbar />
+      <div className="P-2">-</div>
       <Container>
         <Row>
           <Col xs={3}>
@@ -21,7 +22,7 @@ function Confirm() {
           <Col xs={9} className="d-flex flex-column mt-3 mb-3 graphic">
             <div className="d-flex-column px-3 px-md-4 pt-3 pt-md-4">
               <p>Details</p>
-              <div className="graphic d-flex-column p-2 my-3">
+              <div className="graphic d-flex-column p-1 my-2">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="d-flex">
                     <div className="d-flex-column justify-content-center ms-3">
@@ -31,7 +32,7 @@ function Confirm() {
                   </div>
                 </div>
               </div>
-              <div className="graphic d-flex-column p-2 my-3">
+              <div className="graphic d-flex-column p-1 my-2">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="d-flex">
                     <div className="d-flex-column justify-content-center ms-3">
@@ -41,7 +42,7 @@ function Confirm() {
                   </div>
                 </div>
               </div>
-              <div className="graphic d-flex-column  p-2 my-3">
+              <div className="graphic d-flex-column  p-1 my-2">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="d-flex">
                     <div className="d-flex-column justify-content-center ms-3">
@@ -51,7 +52,7 @@ function Confirm() {
                   </div>
                 </div>
               </div>
-              <div className="graphic d-flex-column p-2 my-3">
+              <div className="graphic d-flex-column p-1 my-2">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="d-flex">
                     <div className="d-flex-column justify-content-center ms-3">
@@ -64,7 +65,7 @@ function Confirm() {
 
               <p className="">Transfer to</p>
               <div className="graphic">
-                <div className="d-flex-column  p-3 my-3">
+                <div className="d-flex-column  p-1 my-2">
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex">
                       <img src={robert} className="" alt="robert" />
@@ -76,8 +77,8 @@ function Confirm() {
                   </div>
                 </div>
               </div>
-              <div className="d-md-flex justify-content-end">
-                <Button variant="primary" onClick={() => setModalShow(true)}>
+              <div className="d-md-flex justify-content-end p-3">
+                <Button variant="success" onClick={() => setModalShow(true)}>
                   Continue
                 </Button>
                 <PinConfirm

@@ -33,134 +33,36 @@ function App() {
         <Route path="/Home" element={<Home />} />
 
         {/* Auth */}
-        <Route
-          path="/Createpin"
-          element={
-            <PrivateRoute>
-              <CreatePin />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/Createpin/Success"
-          element={
-            <PrivateRoute>
-              <CreatePinSuccess />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/Createpin" element={<CreatePin />} />
+        <Route path="/Createpin/Success" element={<CreatePinSuccess />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Resetpass" element={<ResetPassTypeEmail />} />
         <Route path="/Resetpass/Typepass" element={<ResetPassTypePass />} />
         <Route path="/Signup" element={<Signup />} />
 
         {/* Profile */}
-        <Route
-          path="/Profile"
-          element={
-            <PrivateRoute>
-              <Profile />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/Profile" element={<Profile />} />
 
         {/* Profile -> Personal info */}
-        <Route
-          path="/Personalinfo"
-          element={
-            <PrivateRoute>
-              <PersonalInfo />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/Managephonenum"
-          element={
-            <PrivateRoute>
-              <ManagePhoneNum />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/Addphone"
-          element={
-            <PrivateRoute>
-              <AddPhone />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/Personalinfo" element={<PersonalInfo />} />
+        <Route path="/Managephonenum" element={<ManagePhoneNum />} />
+        <Route path="/Addphone" element={<AddPhone />} />
 
         {/* Profile -> Change Password */}
-        <Route
-          path="/Changepass"
-          element={
-            <PrivateRoute>
-              <ChangePass />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/Changepass" element={<ChangePass />} />
 
         {/* Profile -> Change Pin */}
-        <Route
-          path="/Changepin"
-          element={
-            <PrivateRoute>
-              <ChangePin />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/Changepin" element={<ChangePin />} />
 
         {/* Topup */}
-        <Route
-          path="/Topup"
-          element={
-            <PrivateRoute>
-              <Topup />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/Topup" element={<Topup />} />
 
         {/* Transfer */}
-        <Route
-          path="/Transfer"
-          element={
-            <PrivateRoute>
-              <Transfer />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/Transfer/success"
-          element={
-            <PrivateRoute>
-              <TransferSuccess />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/Transfer/failed"
-          element={
-            <PrivateRoute>
-              <TransferFailed />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/Transfer/confirm"
-          element={
-            <PrivateRoute>
-              <Confirm />
-            </PrivateRoute>
-          }
-        />
-        <Route
-          path="/Transfer/input"
-          element={
-            <PrivateRoute>
-              <TransferInput />
-            </PrivateRoute>
-          }
-        />
+        <Route path="/Transfer" element={<Transfer />} />
+        <Route path="/Transfer/success" element={<TransferSuccess />} />
+        <Route path="/Transfer/failed" element={<TransferFailed />} />
+        <Route path="/Transfer/confirm" element={<Confirm />} />
+        <Route path="/Transfer/input" element={<TransferInput />} />
       </Routes>
     </BrowserRouter>
   );

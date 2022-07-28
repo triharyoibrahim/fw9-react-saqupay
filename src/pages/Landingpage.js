@@ -31,10 +31,10 @@ function LandingPage() {
           </div>
           <div>
             <Link to="/Login" className="m-1">
-              <Button variant="primary">Login</Button>
+              <Button variant="success">Login</Button>
             </Link>
             <Link to="/Signup">
-              <Button variant="primary">Sign Up</Button>{" "}
+              <Button variant="success">Sign Up</Button>{" "}
             </Link>
           </div>
         </nav>
@@ -51,14 +51,14 @@ function LandingPage() {
               We bring you a mobile app for banking problems that oftenly
               wasting much of your times.
             </p>
-            <div className="">
+            <div className="p-3">
               <Link to="/signup">
                 {" "}
-                <Button variant="primary">Try it free</Button>
+                <Button variant="success">Try it free</Button>
               </Link>
             </div>
             <p>available On :</p>
-            <div className="dis">
+            <div className="">
               <img src={appstore} alt="appstore" />
               <img src={gplay} alt="gplay" />
             </div>

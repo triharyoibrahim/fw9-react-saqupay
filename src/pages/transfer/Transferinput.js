@@ -11,12 +11,13 @@ function TransferInput() {
   return (
     <>
       <Navbar />
+      <div className="P-2">-</div>
       <Container>
         <Row>
           <Col xs={3}>
             <Menu />
           </Col>
-          <Col xs={9} className="d-flex flex-column mt-3 mb-3 graphic">
+          <Col xs={9} className="d-flex flex-column mt-3 graphic">
             <div className=" d-flex-column px-3 px-md-4 pt-3 pt-md-4 ">
               <p className="">Transfer money</p>
               <div className="d-flex-column p-3 my-3">
@@ -58,7 +59,8 @@ function TransferInput() {
                 <div className="d-md-flex justify-content-end">
                   <Link to="/transfer/confirm">
                     <Button
-                      className="btn auth-button w-100 my-5"
+                      variant="success"
+                      className="w-100 my-5"
                       type="submit"
                     >
                       Continue

@@ -11,14 +11,14 @@ function PinConfirm(props) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header closeButton className="blue">
           <Modal.Title id="contained-modal-title-vcenter">
             Enter PIN to Transfer
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <p>
-            Enter your 6 digits PIN for confirmation to continue transferring
+            Enter your 6 digits PIN for confirmation to continue to transfer
             money.
           </p>
           <Form className="d-flex flex-rows justify-content-around mw-100 gap-2 mt-5">
@@ -80,12 +80,16 @@ function PinConfirm(props) {
         </Modal.Body>
         <Modal.Footer>
           <Link to="/transfer/failed">
-            <Button className="auth-button" onClick={props.onHide}>
+            <Button
+              variant="outline-success"
+              className="auth-button"
+              onClick={props.onHide}
+            >
               Cancel
             </Button>
           </Link>
           <Link to="/transfer/success">
-            <Button className="" onClick={props.onHide}>
+            <Button variant="success" className="" onClick={props.onHide}>
               Confirm
             </Button>
           </Link>

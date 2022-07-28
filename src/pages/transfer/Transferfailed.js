@@ -11,6 +11,7 @@ function TransferFailed() {
   return (
     <>
       <Navbar />
+      <div className="P-2">-</div>
       <Container>
         <Row>
           <Col xs={3}>
@@ -83,7 +84,11 @@ function TransferFailed() {
               </div>
               <div className="d-md-flex justify-content-end">
                 <Link to="/transfer">
-                  <Button className=" my-2 my-md-5" type="submit">
+                  <Button
+                    variant="success"
+                    className=" my-2 my-md-5"
+                    type="submit"
+                  >
                     Try Again
                   </Button>
                 </Link>

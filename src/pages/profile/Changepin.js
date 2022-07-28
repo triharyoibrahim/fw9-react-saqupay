@@ -10,6 +10,7 @@ function ChangePin() {
   return (
     <>
       <Navbar />
+      <div className="P-2">-</div>
       <Container>
         <Row>
           <Col xs={3}>
@@ -82,7 +83,9 @@ function ChangePin() {
               </div>
               <div className="text-center  my-5">
                 <Link to="/home">
-                  <Button className="">Continue</Button>
+                  <Button variant="success" className="">
+                    Continue
+                  </Button>
                 </Link>
               </div>
             </div>

@@ -5,7 +5,7 @@ import "../../assets/CSS/createpin.css";
 import {} from "react-icons/fi";
 import LeftSide from "../../components/AuthLeftSide.js";
 import success from "../../assets/img/success.png";
-import { Link } from "react-router-dom";
+import {} from "react-router-dom";
 
 function CreatePinSuccess() {
   return (
@@ -19,18 +19,15 @@ function CreatePinSuccess() {
               <h4>Your PIN Was Successfully Created</h4>
               <p className="pt-3">
                 Your PIN was successfully created and you can now access all the
-                features in Zwallet. Login to your new account and start
+                features in Saqu Pay. Login to your new account and start
                 exploring!
               </p>
             </div>
 
-            <div className="d-flex justify-content-center pt-5">
-              <Link to="/home">
-                {" "}
-                <Button type="button" className="btn btn-primary btn-ls">
-                  Login Now
-                </Button>
-              </Link>
+            <div className="d-grid mt-5">
+              <Button variant="success" size="lg">
+                Login Now
+              </Button>
             </div>
           </div>
         </div>
